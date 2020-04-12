@@ -34,7 +34,7 @@ main{
 
 .search-box{
 	width: 100%;
-	margin: 0 0 75px;
+	margin: 0 0 50px;
 }
 
 .search-bar{
@@ -81,22 +81,53 @@ main{
 .temp{
 	position: relative;
 	display: inline-block;
-	margin: 30px auto;
+	margin: 30px auto 0;
 	background-color: rgba(255,255,255,.2);
 	border-radius: 1rem;
 	padding: 15px 25px;
 	color: #fff;
-	font-size: 6rem;
+	font-size: 10vh;
 	font-weight: 900;
 	text-shadow: 3px 6px rgba(50,50,70,.5);
 	box-shadow: 3px 6px rgba(0,0,0,.3);
+}
+
+.temps{
+	margin-top: 1rem;
+}
+
+.temp-min{
+	position: relative;
+	display: inline-block;
+	font-size: 2.2rem;
+	color: blue;
+	font-weight: bold;
+	padding: 0 1rem;
+	text-shadow: 3px 3px rgba(50,50,70,.5);
+}
+
+.temp-max{
+	position: relative;
+	display: inline-block;
+	font-size: 2.2rem;
+	color: red;
+	font-weight: bold;
+	padding: 0 1rem;
+	text-shadow: 3px 3px rgba(50,50,70,.5);
 }
 
 .weather{
 	color: #fff;
 	font-size: 3.5rem;
 	font-weight: 700;
+	margin-top: -1rem;
 	text-shadow: 3px 3px rgba(50,50,70,.5);
+}
+
+.icon{
+	width: 50vw;
+	height: auto;
+	margin-top: -1rem;
 }
 
 .logo{
